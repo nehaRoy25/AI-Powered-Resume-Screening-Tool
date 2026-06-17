@@ -1,0 +1,5 @@
+Flask
+pdfplumber
+langchain
+langchain_groq
+werkzeug
