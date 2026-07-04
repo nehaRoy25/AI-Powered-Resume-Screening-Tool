@@ -14,6 +14,7 @@ app = Flask(__name__)
 chat_model = ChatGroq(model_name="mixtral-8x7b-32768", groq_api_key=os.getenv("GROQ_API_KEY"))
 
 results = []
+#
 
 def chat_groq(conversation):
     messages = [
